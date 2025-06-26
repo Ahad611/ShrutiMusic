@@ -13,18 +13,18 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
+API_ID = int(os.getenv("28209312"))
+API_HASH = os.getenv("89def84a7894bb696ff20174c86889a4")
+BOT_TOKEN = os.getenv("7866554017:AAHZ_0S-R_-veYpyQLYmvhWIxSIBAaj53tE")
+OWNER_ID = int(os.getenv("7710841624", None))
+OWNER_USERNAME = os.getenv("x7Ahad", "WTF_WhyMeeh")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan", None)
+LOG_GROUP_ID = int(os.getenv("-1002740659166", None))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -40,8 +40,8 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotSupport")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Addiction_World")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/+Ay_8Q6xrMbtkOTll")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -70,7 +70,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 STRING1 = os.getenv("STRING_SESSION", None)
-STRING2 = os.getenv("STRING_SESSION2", None)
+STRING2 = os.getenv("BQCOaU4AxARKjnw05xbtfoloNJ-aoETw3cDYx9Zb0-MSff9U9gRd2jzmYDN1mUvTxR7YW_Z6QCrzexzmncDt9kZ671bEtM7vju2MF907KNDJtRbM7A0coTWwk5x-r0YZVBTkvJqgvKnn3tPc6aKuwe3ntj_fTh4U3qeoymvdVLAySoqQbEO2YpWu0m44Ewr-TyifTw1DGTK8CetOvESqyA6-M4YyZqyuKFP7-NeztNa61PORTXYPq8mNd5Z_08Gpii_PuRqIfXIl0WB3NkrV4qrR3rO4no6xfPvBOt0KlvWI5goDMF7HV9-vhtazBnF_1jlr2XVIzGjVyAhTMo-PQEok56GAwQAAAAHbGwTmAA", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
 STRING5 = os.getenv("STRING_SESSION5", None)
@@ -85,10 +85,10 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/eehxb4.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/eehxb4.jpg")
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/ea393ad4ce0eed46d32c8-b287bce17388905e79.jpg")
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://graph.org/file/ea393ad4ce0eed46d32c8-b287bce17388905e79.jpg")
 PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+STATS_IMG_URL = "https://graph.org/file/ea393ad4ce0eed46d32c8-b287bce17388905e79.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
